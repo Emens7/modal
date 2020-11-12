@@ -7,8 +7,14 @@ const span = document.getElementsByClassName("close")[0];
 
 const redButton = document.getElementsByClassName("modal-button-red")[0];
 
+const greenButton = document.getElementsByClassName("modal-button-green");
+
 btn.onclick = () => {
   modal.style.display = "block";
+}
+
+greenButton.onclick = () => {
+    modal.style.display = "block";
 }
 
 span.onclick = () => {
