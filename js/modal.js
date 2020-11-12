@@ -5,15 +5,21 @@ const btn = document.getElementById("button");
 
 const span = document.getElementsByClassName("close")[0];
 
-btn.onclick = function() {
+const redButton = document.getElementsByClassName("modal-button-red")[0];
+
+btn.onclick = () => {
   modal.style.display = "block";
 }
 
-span.onclick = function() {
+span.onclick = () => {
   modal.style.display = "none";
 }
 
-window.onclick = function(event) {
+redButton.onclick = () => {
+    modal.style.display="none";
+}
+
+window.onclick = (event) => {
   if (event.target == modal) {
     modal.style.display = "none";
   }
