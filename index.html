@@ -3,44 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Modal</title>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap" rel="stylesheet">
+    <title>Modal példa</title>
     <link rel="stylesheet" href="./css/modal.css">
 </head>
 <body>
+    <div id="modal-container" class="modal-content">
+        <div class="modal-background">
+          <div class="modal">
+            <div class="modal-header">
+              <h2>Fejléc</h2>
+            </div>
+            <div class="modal-body">
+              <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est corporis amet fugiat pariatur eius atque ratione modi commodi et velit. Nemo repellat perferendis nam, at sint ex cupiditate quod quisquam?</h4>
+              <p>Még több...</p>
+            </div>
+            <div class="modal-footer">
+              <h3>Lábléc</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse rerum quis corrupti reiciendis, quo consequuntur nisi ab fuga tenetur sint repellendus aliquam soluta velit assumenda id autem commodi recusandae iste?</p>
+            </div>
+            <div class="button-div">
+                <button class="modal-button-red">Bezár</button>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+      <div class="content">
+        <h1>Modal Animáció</h1>
+        <div class="buttons">
+          <div id="one" class="button">Modal</div>
+         
+        </div>
+      </div>
 
-    <h2></h2>
-
-
-<button id="button" class="button">Open Modal</button>
-
-
-<div id="myModal" class="modal">
-
-
-  <div class="modal-content">
-    <div class="modal-header">
-      <span class="close">&times;</span>
-      <h2>Fejléc</h2>
-    </div>
-    <div class="modal-body">
-      <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est corporis amet fugiat pariatur eius atque ratione modi commodi et velit. Nemo repellat perferendis nam, at sint ex cupiditate quod quisquam?</h4>
-      <p>Még több...</p>
-    </div>
-    <div class="modal-footer">
-      <h3>Lábléc</h3>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse rerum quis corrupti reiciendis, quo consequuntur nisi ab fuga tenetur sint repellendus aliquam soluta velit assumenda id autem commodi recusandae iste?</p>
-    </div>
-    <div class="button-div">
-        <button class="modal-button-green"><a href="https://e-learning.training360.com/" target="_blank">OK</a></button>
-    
-        <button class="modal-button-red">Cancel</button>
-    </div>
-  </div>
-
-</div>
-    
-    <script src="./js/modal.js"></script>
+      <script src="./js/js.js"></script>
 </body>
 </html>
